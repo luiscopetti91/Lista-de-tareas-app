@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Tareas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="dark-mode">
+  <div class="container">
+    <div class="card mt-5">
+      <div class="card-header">
+        <h1 class="text-center">Lista de Tareas</h1>
+      </div>
+      <div class="card-body">
+        <div class="input-group mb-3">
+          <input type="text" id="task-input" class="form-control form-control-lg" placeholder="Nueva tarea">
+          <div class="input-group-append">
+            <button id="add-task-btn" class="btn btn-primary btn-lg">Agregar</button>
+          </div>
+        </div>
+
+        <ul id="task-list" class="list-group">
+          <!-- Las tareas se generarán dinámicamente aquí -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
